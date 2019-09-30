@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+
+        android:text="✘"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <Button
+        android:id="@+id/buttonX3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#26089E"
+        android:text="config"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <Button
+        android:id="@+id/buttonX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fffff"
+        android:text="✔"
+        android:textColor="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <TextView
+        android:id="@+id/infoClimaText"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="[info clima]"
+        android:textColor="#27089E"
+        android:textSize="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="164dp" />
+
+    <TextView
+        android:id="@+id/outfitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consejo del día"
+        android:textColor="#6148C7"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <ImageView
+        android:id="@+id/WeatherImage"
+        android:layout_width="107dp"
+        android:layout_height="98dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="-13dp"
+        tools:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:text="SUGERENCIA 1"
+        android:background="#FEFEFE"
+        android:textColor="#AB774D"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:text="SUGERENCIA 2"
+        android:background="#FEFEFE"
+        android:textColor="#AB774D"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
